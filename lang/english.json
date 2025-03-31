@@ -31,7 +31,7 @@
     },
     "menu": {
       "help": "```╭────────────────╮\n      ʟᴇᴠᴀɴᴛᴇʀ\n╰────────────────╯\n\n╭────────────────\n│ Prefix : {0}\n│ User : {1}\n│ Time : {2}\n│ Day : {3}\n│ Date : {4}\n│ Version : {5}\n│ Plugins : {6}\n│ Ram : {7}\n│ Uptime : {8}\n│ Platform : {9}\n╰────────────────```",
-      "menu": "```╭═══ LEVANTER ═══⊷\n┃❃╭──────────────\n┃❃│ Prefix : {0}\n┃❃│ User : {1}\n┃❃│ Time : {2}\n┃❃│ Day : {3}\n┃❃│ Date : {4}\n┃❃│ Version : {5}\n┃❃│ Plugins : {6}\n┃❃│ Ram : {7}\n┃❃│ Uptime : {8}\n┃❃│ Platform : {9}\n┃❃╰───────────────\n╰═════════════════⊷```"
+      "menu": "```╭═══ NOOBX7 ═══⊷\n┃❃╭──────────────\n┃❃│ Prefix : {0}\n┃❃│ User : {1}\n┃❃│ Time : {2}\n┃❃│ Day : {3}\n┃❃│ Date : {4}\n┃❃│ Version : {5}\n┃❃│ Plugins : {6}\n┃❃│ Ram : {7}\n┃❃│ Uptime : {8}\n┃❃│ Platform : {9}\n┃❃╰───────────────\n╰═════════════════⊷```"
     },
     "afk": {
       "example": "> *AFK Usage:*\n- Set AFK: *afk [reason]*\n- Example: *afk I am busy* Last seen #lastseen ago\n- Sending a message automatically removes AFK status\n- Disable AFK: *afk off*",
@@ -158,12 +158,12 @@
     },
     "greetings": {
       "welcome_desc": "Send a welcome message to new members",
-      "welcome_example": "Welcome is currently {0}\n\nFor more details, visit: https://levanter-plugins.vercel.app/faq",
+      "welcome_example": "Welcome is currently {0}\n\nFor more details, visit: https://telegram.me/NOOBX7Bot",
       "welcome_enable": "_Welcome is now enabled_",
       "welcome_disable": "_Welcome is now disabled_",
       "welcome_delete": "_Welcome message deleted_",
       "goodbye_desc": "Send a goodbye message to members",
-      "goodbye_example": "Goodbye is currently {0}\n\nFor more details, visit: https://levanter-plugins.vercel.app/faq",
+      "goodbye_example": "Goodbye is currently {0}\n\nFor more details, visit: https://telegram.me/NOOBX7Bot",
       "goodbye_enable": "_Goodbye is now enabled_",
       "goodbye_disable": "_Goodbye is now disabled_",
       "goodbye_delete": "_Goodbye message deleted_"
@@ -183,7 +183,7 @@
       "desc": "add a member to groups",
       "warning": "> Avoid adding numbers that aren't saved in contacts; this can increase the risk of being banned.",
       "not_admin": "I'm not an admin, so I can't add members.",
-      "invalid_number": "Please provide a valid phone number. Example: add 91987654321",
+      "invalid_number": "Please provide a valid phone number. Example: add 916969696969",
       "failed": "Failed to add. An invite has been sent instead."
     },
     "promote": {
@@ -358,7 +358,7 @@
       "usage": "Example: mention on | off | get\n(Reply to a message to target a specific user.)",
       "desc": "Configure and manage the mention feature for automated replies.",
       "not_activated": "Reply to mention not activated.",
-      "current_status": "Mention is {0}. For details, visit: https://levanter-plugins.vercel.app/faq",
+      "current_status": "Mention is {0}. For details, visit: https://telegram.me/NOOBX7Bot",
       "activated": "Reply-to mention activated.",
       "deactivated": "Reply-to mention deactivated.",
       "updated": "Mention settings updated."
@@ -531,7 +531,7 @@
       "error": "Missing API key or image. Please set your API key and reply to an image."
     },
     "setschedule": {
-      "usage": "> *Example :*\n- setschedule jid,min-hour-day-month (in 24 hour format, day and month optional)\n- setschedule 91987654321@s.whatsapp.net, 9-9-13-8\n- setschedule 91987654321@s.whatsapp.net, 0-10 (send message daily at 10 am)\n- setschedule 91987654321@s.whatsapp.net, 0-10, once (send message at 10 am, one time)",
+      "usage": "> *Example :*\n- setschedule jid,min-hour-day-month (in 24 hour format, day and month optional)\n- setschedule 916969696969@s.whatsapp.net, 9-9-13-8\n- setschedule 916969696969@s.whatsapp.net, 0-10 (send message daily at 10 am)\n- setschedule 916969696969@s.whatsapp.net, 0-10, once (send message at 10 am, one time)",
       "desc": "Schedule a message to be sent automatically at a specified time. Provide the target JID(s) and time (in minutes-hour-day-month format; day and month are optional). Reply to the message you want to schedule.",
       "invalid": "Invalid schedule format or time. Please follow one of the examples provided.",
       "no_reply": "Please reply to the message that you want to schedule for sending.",
@@ -543,7 +543,7 @@
       "time": "Time : {0}"
     },
     "delschedule": {
-      "usage": "> Example:\n- delschedule 9198765431@s.whatsapp.net, 8-8-10-10\n- delschedule 9198765431@s.whatsapp.net\n- delschedule all",
+      "usage": "> Example:\n- delschedule 916969696969@s.whatsapp.net, 8-8-10-10\n- delschedule 916969696969@s.whatsapp.net\n- delschedule all",
       "desc": "Delete a scheduled message by specifying the target JID and time, or remove all scheduled messages.",
       "invalid": "Invalid format. Please follow one of the examples.",
       "not_found": "Schedule not found.",
