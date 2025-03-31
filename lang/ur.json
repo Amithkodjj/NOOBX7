@@ -30,8 +30,8 @@
       "update": "_Settings update hogai hai ✅_"
     },
     "menu": {
-      "help": "```╭────────────────╮\n      ʟᴇᴠᴀɴᴛᴇʀ\n╰────────────────╯\n\n╭────────────────\n│ Prefix : {0}\n│ User : {1}\n│ Time : {2}\n│ Day : {3}\n│ Date : {4}\n│ Version : {5}\n│ Plugins : {6}\n│ Ram : {7}\n│ Uptime : {8}\n│ Platform : {9}\n╰────────────────```",
-      "menu": "```╭═══ LEVANTER ═══⊷\n┃❃╭──────────────\n┃❃│ Prefix : {0}\n┃❃│ User : {1}\n┃❃│ Time : {2}\n┃❃│ Day : {3}\n┃❃│ Date : {4}\n┃❃│ Version : {5}\n┃❃│ Plugins : {6}\n┃❃│ Ram : {7}\n┃❃│ Uptime : {8}\n┃❃│ Platform : {9}\n┃❃╰───────────────\n╰═════════════════⊷```"
+      "help": "```╭────────────────╮\n      NOOBX7\n╰────────────────╯\n\n╭────────────────\n│ Prefix : {0}\n│ User : {1}\n│ Time : {2}\n│ Day : {3}\n│ Date : {4}\n│ Version : {5}\n│ Plugins : {6}\n│ Ram : {7}\n│ Uptime : {8}\n│ Platform : {9}\n╰────────────────```",
+      "menu": "```╭═══ NOOBX7 ═══⊷\n┃❃╭──────────────\n┃❃│ Prefix : {0}\n┃❃│ User : {1}\n┃❃│ Time : {2}\n┃❃│ Day : {3}\n┃❃│ Date : {4}\n┃❃│ Version : {5}\n┃❃│ Plugins : {6}\n┃❃│ Ram : {7}\n┃❃│ Uptime : {8}\n┃❃│ Platform : {9}\n┃❃╰───────────────\n╰═════════════════⊷```"
     },
     "afk": {
       "example": "> *AFK Ka Istmal:*\n- Set AFK: *afk [reason]*\n- Example: *afk main busy hoon* Last seen #lastseen ago\n- Message bhejne se AFK status automatically hat jata hai\n- hatain AFK: *afk off*",
@@ -158,12 +158,12 @@
     },
     "greetings": {
       "welcome_desc": "*_New members ko welcome message bhejein ✨_*",
-      "welcome_example": "_Welcome abhi tak hai {0}\n\nAbi ky liye, visit: https://levanter-plugins.vercel.app/faq_",
+      "welcome_example": "_Welcome abhi tak hai {0}\n\nAbi ky liye, visit: https://telegram.me/NOOBX7Bot_",
       "welcome_enable": "_Welcome abhi on hai_",
       "welcome_disable": "_Welcome abhi off hai_",
       "welcome_delete": "_Welcome message delete kar diya gaya hai_",
       "goodbye_desc": "*_Members ko goodbye message bhejein._*",
-      "goodbye_example": "*Goodbye abhi tak hai {0}\n\nAbhi ky liye, visit: https://levanter-plugins.vercel.app/faq*",
+      "goodbye_example": "*Goodbye abhi tak hai {0}\n\nAbhi ky liye, visit: https://telegram.me/NOOBX7Bot*",
       "goodbye_enable": "_Goodbye abhi on hai_",
       "goodbye_disable": "_Goodbye abhi off hai_",
       "goodbye_delete": "_Goodbye message delete kar diya gaya hai_"
@@ -183,7 +183,7 @@
       "desc": "_Group mein ek member ko add karein_",
       "warning": "> Aise numbers ko add na karein jo contacts mein saved na ho, is se ban hone ka risk barh sakta hai.",
       "not_admin": "_Main admin nahi hoon, is liye members ko add nahi kar sakta_.",
-      "invalid_number": "_ek valid phone number dein. Misal: add 91987654321_",
+      "invalid_number": "_ek valid phone number dein. Misal: add 91696969696_",
       "failed": "_Add karne mein naakam. Ek invite bhej diya gaya hai._"
     },
     "promote": {
@@ -358,7 +358,7 @@
       "usage": "*Misal:* _mention chalu | band | hasil karein (Kisi paighaam ka jawab dein taake aik khas shakhs ko nishana banaya ja sake.)_",
       "desc": "_Mention ka intizami aur moattali jawab ka nizam banayein_",
       "not_activated": "*_Reply-to mention band hai._*",
-      "current_status": "_Mention hai {0}. Tafseelat ke liye dekhein: https://levanter-plugins.vercel.app/faq_",
+      "current_status": "_Mention hai {0}. Tafseelat ke liye dekhein: https://telegram.me/NOOBX7Bot_",
       "activated": "*_Reply-to mention active kar diya gaya hai._*",
       "deactivated": "_Reply-to mention band kar diya gaya hai_",
       "updated": "*_mention ki settings update kar di gayi hain._*"
@@ -531,7 +531,7 @@
       "error": "_API key ya image missing hai. Apni API key set karein aur kisi image par reply karein._"
     },
     "setschedule": {
-      "usage": "> Misaal :\n- setschedule jid,min-hour-day-month (24-hour format me, day aur month optional hain)\n- setschedule 91987654321@s.whatsapp.net, 9-9-13-8\n- setschedule 91987654321@s.whatsapp.net, 0-10 (har roz 10 am par message bhejne ke liye)\n- setschedule 91987654321@s.whatsapp.net, 0-10, once (sirf ek baar 10 am par message bhejne ke liye)",
+      "usage": "> Misaal :\n- setschedule jid,min-hour-day-month (24-hour format me, day aur month optional hain)\n- setschedule 91696969696@s.whatsapp.net, 9-9-13-8\n- setschedule 91696969696@s.whatsapp.net, 0-10 (har roz 10 am par message bhejne ke liye)\n- setschedule 91696969696@s.whatsapp.net, 0-10, once (sirf ek baar 10 am par message bhejne ke liye)",
       "desc": "_Automatically message bhejne ke liye ek schedule set karein. Target JID(s) aur time provide karein (minutes-hour-day-month format me; day aur month optional hain). Jo message schedule karna ho, us par reply karein_",
       "invalid": "_Invalid schedule format ya time. Example ko follow karein._",
       "no_reply": "_Jo message schedule karna chahte hain, us par reply karein_",
